@@ -28,7 +28,8 @@ h2 {
 }
 
 a {
-    color: rebeccapurple;
+    color: cadetblue;
+    target: blank;
 }
 
 b, strong {
@@ -49,6 +50,28 @@ img {
     margin: 1.3em auto;
     max-width: 95%;
 }
+
+.icon {
+width:35px;
+height:35px;
+display:block;
+text-indent:-9999px;
+background-image:url(images/media_icons.png);
+background-repeat:no-repeat;
+}
+
+.email {
+background-position:-115px -612px;
+}
+
+.linkedin{
+   background-position:-637px -664px; 
+}
+
+.github{
+   background-position:-168px -457px;  
+}
+*/
 
 @-webkit-keyframes colorize {
     0% {
