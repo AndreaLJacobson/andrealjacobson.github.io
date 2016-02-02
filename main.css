@@ -40,11 +40,18 @@ ul{
     list-style-type: none;
 }
 ul.nav{
+    
     margin: 0;
     padding: 0; 
     width: auto;
 }
 
+.submenu{
+    display:none;
+}
+.submenu:hover{
+    display:inline !important;
+}
 li.nav{
     display: inline;
     float: right;
@@ -62,23 +69,14 @@ a.nav{
     
 }
 
-a.nav:hover(:not{
+a.nav:hover{
     background-color: rgba(95, 209, 227, 1);
     padding: 1em .25em .75em .25em;
 }
 
 a.nav:active{
-    background-color: rgb( 0, 0, 0);
+    background-color: black: rgb( 0, 0, 0);
 }
-.submenu{
-    display: none;
-}
-
-/*.submenu:hover{
-    display: inline;
-}*/
-
-
 /*
 li a {
     display:block;
