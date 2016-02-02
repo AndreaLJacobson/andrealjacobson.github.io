@@ -1,24 +1,94 @@
+/* 
+Theme colors:
+aqua: rgba(95, 209, 227, 1)
+teal: rgba(17, 119, 136, 1)
+coral: rgba(242, 137, 121, 1)
+gray: rgba(61, 74, 76, 1)
+white: rgb(255,255,255)
+black: rgb( 0, 0, 0)
+*/
+
 html {
-    background-color: #e6e9e9;
-    background-image: -webkit-linear-gradient(270deg,rgb(230,233,233) 0%,rgb(216,221,221) 100%);
-    background-image: linear-gradient(270deg,rgb(230,233,233) 0%,rgb(216,221,221) 100%);
-    -webkit-font-smoothing: antialiased;
+    background-color: rgba(17, 119, 136, 0.5);
 }
 
 body {
     margin: 0 auto;
-    padding: 2em 2em 4em;
     max-width: 800px;
     font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
     font-size: 16px;
     line-height: 1.5em;
-    color: #545454;
+    color: rgba(61, 74, 76, 1);
     background-color: #ffffff;
     box-shadow: 0 0 2px rgba(0, 0, 0, 0.06);
 }
 
+navbar-wrapper{}
+
+main {
+        padding: 2em 2em 4em;
+}
+
+.header, .footer{   
+    background-color: rgba(61, 74, 76, 1.0);
+    padding: 1em 1em 2em;
+    margin: 0 !important;
+    font-size: 20px;
+}
+
+ul{
+    list-style-type: none;
+}
+ul.nav{
+    margin: 0;
+    padding: 0; 
+    width: auto;
+}
+
+li.nav{
+    display: inline;
+    float: right;
+    /*margin: 0em .5em 0em 1em;*/
+    margin: 0em .25em .25em .25em;
+}
+
+a {
+    color: rgba(17, 119, 136, 1);
+}
+
+a.nav{
+    color: rgb(255,255,255) !important;
+    text-decoration: none;
+    
+}
+
+a.nav:hover(:not{
+    background-color: rgba(95, 209, 227, 1);
+    padding: 1em .25em .75em .25em;
+}
+
+a.nav:active{
+    background-color: rgb( 0, 0, 0);
+}
+.submenu{
+    display: none;
+}
+
+/*.submenu:hover{
+    display: inline;
+}*/
+
+
+/*
+li a {
+    display:block;
+    color: rgb(255,255,255);
+    target: blank;
+}
+*/
+
 h1, h2, h3, h4, h5, h6 {
-    color: #222;
+    color: rgba(61, 74, 76, 1.0);
     font-weight: 600;
     line-height: 1.3em;
 }
@@ -27,10 +97,9 @@ h2 {
     margin-top: 1.3em;
 }
 
-a {
-    color: cadetblue;
-    target: blank;
-}
+
+/* NOT WORKING */
+
 
 b, strong {
     font-weight: 600;
@@ -51,6 +120,8 @@ img {
     max-width: 95%;
 }
 
+
+/* -------- Sprites ---------*/
 .icon {
 width:35px;
 height:35px;
@@ -66,28 +137,11 @@ background-position:-115px -612px;
 }
 
 .linkedin{
-   background-position:-637px -664px; 
+   background-position:-635px -664px; 
 }
 
 .github{
-   background-position:-168px -457px;  
+   background-position:-168px -455px;  
 }
 */
 
-@-webkit-keyframes colorize {
-    0% {
-        -webkit-filter: grayscale(100%);
-    }
-    100% {
-        -webkit-filter: grayscale(0%);
-    }
-}
-
-@keyframes colorize {
-    0% {
-        filter: grayscale(100%);
-    }
-    100% {
-        filter: grayscale(0%);
-    }
-}
