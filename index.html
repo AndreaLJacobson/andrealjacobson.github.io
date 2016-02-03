@@ -16,7 +16,7 @@
     <body>
 <!-- ===========NAVBAR==========-->
        <div class="navbar-wrapper">
-        <header class="header">
+        <header class="header" id="top">
             <nav class="nav">
                 <ul class="nav">
                     <li class="nav"><a href="#contact" class="nav">Contact</a></li>
@@ -35,7 +35,7 @@
             <div class="heading">
                 <h1>Andrea L Jacobson</h1>
             </div>
-            <section class="bio">
+            <section id="bio">
                 <p>
                 I am a Software Engineer with a love for learning. I have experience in Java, Javascript, jQuery, HTML, CSS, C++, MySQL, PHP, and an endless thirst for more. 
                 </p>
@@ -44,7 +44,10 @@
 <!-- ========== About =======-->
             <section id="about" class="about">
                 <div>
-                    <h2><span>about</span></h2>
+                    <h2>
+                        <span>about</span>
+                        <a href="#top"><img src="images/arrow_up.png" class="button"></a>
+                    </h2>
                 </div>
                     <p><h3>Professional Experience</h3></p>
                     <p>Andrea Jacobson is a software engineer new to the Nashville area.  Having lived and worked in the Seattle area for the past six years, the warmth of the Nashville sun called her here.
@@ -90,7 +93,10 @@ Prior to her time at Sila, she taught Mathematics for a low income high school; 
 <!-- ========== Portfolio ========= -->
             <section id ="portfolio" class="portfolio">
                 <div>
-                    <h2><span>portfolio</span></h2>
+                    <h2>
+                        <span>portfolio</span>
+                        <a href="#top"><img src="images/arrow_up.png" class="button"></a>
+                    </h2>
                     <article>
                         <p><b>Website Code</b></p>        <!-- *** ADD LINK HERE *** -->
                         <p>HTML, CSS, Javascript</p>
@@ -108,11 +114,17 @@ Prior to her time at Sila, she taught Mathematics for a low income high school; 
 <!-- ========== Other ========= -->
             <section id="interests" class="other">
                 <div>
-                  <h2><span>my many interests...  </span></h2>
+                  <h2>
+                      <span>my many interests...  </span>
+                      <a href="#top"><img src="images/arrow_up.png" class="button"></a>
+                    </h2>
             
             <!-- === Orgranizations === -->
                     <article id="membership">
-                        <h3><span>membership/professional organizations</span></h3>
+                        <h3>
+                            <span>membership/professional organizations</span>
+                            <a href="#top"><img src="images/arrow_up.png" class="button"></a>
+                        </h3>
                         <ul>    
                             <li>2015 - present: 
                                 <a href=http://nashvillewomenprogrammers.com/>
@@ -130,7 +142,10 @@ Prior to her time at Sila, she taught Mathematics for a low income high school; 
 
             <!-- === Adventure === -->
                     <article id="adventure">
-                        <h3><span>adventure</span></h3>
+                        <h3>
+                            <span>adventure</span>
+                            <a href="#top"><img src="images/arrow_up.png" class="button"></a>
+                        </h3>
                         <ul>
                             <li>2008 - 
                                 <a href="http://www.ing-night-marathon.lu/en/">Luxemburg ING Marathon
@@ -158,7 +173,11 @@ Prior to her time at Sila, she taught Mathematics for a low income high school; 
             <!-- === Art === -->
                     <article id="art">
                         <!-- ************INSERT IMAGE CAROSEL*********** -->
-                        <p><h3>art</h3></p>
+                    
+                        <h3>
+                            <span>art</span>
+                            <a href="#top"><img src="images/arrow_up.png" class="button"></a>
+                        </h3>
                     </article>
 
                 </div>
@@ -166,23 +185,25 @@ Prior to her time at Sila, she taught Mathematics for a low income high school; 
 <!-- ========== Contact ========= --> 
             <section id="contact" class="contact">
                 <h2><span>contact me</span></h2>
-                <ul>
+                <div class="center">
+                    <ul>
                 <!-- email -->
-                    <li>
-                        <a href="mailto: andrea.l.jacobson@hotmail.com" class="icon email">
-                        </a>
-                    </li>
-            <!-- linkedin-->
-                    <li>
-                        <a href="https://www.linkedin.com/in/andrealjacobson" class="icon linkedin">
-                        </a>
-                    </li>
-            <!-- github -->
-                    <li>
-                        <a href="https://github.com/AndreaLJacobson/" class="icon github">
-                        </a>
-                    </li>
-                </ul>
+                        <li class="contact">
+                            <a href="mailto: andrea.l.jacobson@hotmail.com" class="icon email">
+                            </a>
+                        </li>
+                <!-- linkedin-->
+                        <li class="contact">
+                            <a href="https://www.linkedin.com/in/andrealjacobson" class="icon linkedin">
+                            </a>
+                        </li>
+                <!-- github -->
+                        <li class="contact">
+                            <a href="https://github.com/AndreaLJacobson/" class="icon github">
+                            </a>
+                        </li>
+                    </ul>
+                </div>
             </section>
         </main>    
 

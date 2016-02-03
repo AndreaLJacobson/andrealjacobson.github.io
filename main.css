@@ -54,6 +54,17 @@ li.nav{
     margin: 0em .5em .25em .25em;
 }
 
+li.contact{
+    display: inline;
+    float:left;
+    padding-left: 1em;
+    margin: 0em .5em .25em .25em;
+}
+
+.center{
+    margin-left: 30%;
+}
+
 a {
     color: rgba(17, 119, 136, 1);
 }
