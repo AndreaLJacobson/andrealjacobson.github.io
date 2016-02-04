@@ -11,6 +11,7 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <title>Andrea L Jacobson | Software Engineer</title>
         <meta name="description" content="Software Engineer">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" href="main.css">
     </head>
     <body>
@@ -30,22 +31,29 @@
 <!--- ****  Add mobile nav -->
         </header>
         </div>  <! -- /.navbar-wrapper -->
-        <main> 
+        <main class="initial watermark"> 
 <!-- ========== Intro ========-->            
-            <div class="heading">
-                <h1>Andrea L Jacobson</h1>
-            </div>
-            <section id="bio">
-                <p>
-                I am a Software Engineer with a love for learning. I have experience in Java, Javascript, jQuery, HTML, CSS, C++, MySQL, PHP, and an endless thirst for more. 
-                </p>
-            </section>
-                     
+            <div class="container ">  
+                <div class="box">
+                <section id="bio">
+                    <p>
+                    I am a Software Engineer with a love for learning. I have experience in Java, Javascript, jQuery, HTML, CSS, C++, MySQL, PHP, and an endless thirst for more. 
+                    </p>
+                </section>
+                    </div>
+                <div class="box">
+                    <h1 class="right">Andrea L Jacobson</h1>
+                    <b></b>
+                    <b></b>
+                </div>
+            </div>  
+           <! --- /.container -->      
 <!-- ========== About =======-->
+            <div class="container" class="center">
             <section id="about" class="about">
                 <div>
                     <h2>
-                        <span>about</span>
+                        <span >about</span>
                         <a href="#top"><img src="images/arrow_up.png" class="button"></a>
                     </h2>
                 </div>
@@ -88,7 +96,7 @@ Prior to her time at Sila, she taught Mathematics for a low income high school; 
                     </p>
                 </div>
             </section>
-                
+            </div>   <! -- /.container -->
             
 <!-- ========== Portfolio ========= -->
             <section id ="portfolio" class="portfolio">

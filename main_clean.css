@@ -1,0 +1,136 @@
+/* 
+Theme colors:
+aqua: rgba(95, 209, 227, 1)
+teal: rgba(17, 119, 136, 1)
+coral: rgba(242, 137, 121, 1)
+gray: rgba(61, 74, 76, 1)
+white: rgb(255,255,255)
+black: rgb( 0, 0, 0)
+*/
+html {
+    background-color: rgb(255,255,255);
+    height: 100%;
+
+}
+
+body {
+    margin: 0% 0%;
+    max-width: 100%;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.5em;
+    color: rgba(61, 74, 76, 1);
+    /*background-color: #ffffff;*/
+
+    box-shadow: 0 0 2px rgba(0, 0, 0, 0.06);
+    
+}
+
+.header, .footer{   
+    background-color: rgba(61, 74, 76, 1.0);
+    /*padding: 1em 1em 2em 2em; */
+    padding: 2em 1em 2em;
+    margin: 0 !important;
+    font-size: 20px;
+}
+
+li.nav{
+    display: inline;
+    float: right;
+    /*margin: 0em .5em 0em 1em;*/
+    margin: 0em .5em .25em .25em;
+}
+
+a {
+    color: rgba(17, 119, 136, 1);
+}
+
+a.nav{
+    color: rgb(255,255,255);
+    text-decoration: none;
+    
+}
+
+a.nav:hover{
+    background-color: rgba(95, 209, 227, 1);
+    padding: 1em .25em .75em .25em;
+}
+
+.overlay{
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    z-index: 10;
+}
+
+.home{
+    margin-top: 7em;
+    padding-top:18%;
+    padding-bottom:40%;
+    
+}
+.container{
+    width:auto;
+    height: 100%;
+    margin-left: 2em;
+    margin-right: 2em;
+    
+}
+.gentlecover{
+    width:auto;
+    height: 100%;
+    /*position: fixed;*/
+    position:static;
+    background-color: rgb(255,255,255);
+    opacity: .6;
+    margin-top: -6em;
+}
+
+.full{
+    position:absolute; 
+    top:0; 
+    left:0; 
+    width:100%; 
+    height:100%;
+}
+
+.box{
+    width: 40%;
+    height:auto;
+    padding-left: 1em;
+    padding-right: 1em;
+    margin-left: 3em 5em 3em 5em;
+
+}
+.left{
+    float:left;
+}
+.right{
+    float:right;
+}
+
+.name{
+    font-size: 50px;
+    font-weight: 600;
+}
+
+/*.watermark{
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+}*/
+.initial{
+    margin-top: 5em;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    background-image: url(images/climbing.JPG);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
