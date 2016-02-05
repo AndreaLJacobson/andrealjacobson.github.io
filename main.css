@@ -7,9 +7,9 @@ gray: rgba(61, 74, 76, 1)
 white: rgb(255,255,255)
 black: rgb( 0, 0, 0)
 */
-
 html {
     background-color: rgb(255,255,255);
+    height: 100%;
 
 }
 
@@ -17,7 +17,7 @@ body {
     margin: 0% 0%;
     max-width: 100%;
     font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-    font-size: 16px;
+    font-size: 20px;
     line-height: 1.5em;
     color: rgba(61, 74, 76, 1);
     /*background-color: #ffffff;*/
@@ -26,62 +26,19 @@ body {
     
 }
 
-{
-
-}
-navbar-wrapper{}
-
-main {
-        padding: 2em 2em 4em;
+h2{
+    font-size: 40px;
 }
 
-.initial{
-    background-image: url(images/climbing.JPG);
-    background-repeat: no-repeat;
-    background-size: contain;
-    position: relative;
-}
-
-.watermark{
-    //position: fixed;
-    width: 100%;
-    height: 100%;
-    left: 0;
-    top: 0;
-    opacity: .3
-}
-.header, .footer{   
+.header{   
     background-color: rgba(61, 74, 76, 1.0);
     /*padding: 1em 1em 2em 2em; */
-    padding: 2em 1em 2em;
+    padding: .5em 1em 2em;
     margin: 0 !important;
     font-size: 20px;
 }
-.container{
-    width: auto;
-    margin-bottom:5em;
-    padding-bottom: 10em;
-    box-sizing: border-box;
-    opacity: 10 !important;
-    z-index: 10;
-}
 
-.box{
-    width: 30%;
-    padding-left: 1em;
-    padding-right: 1em;
-    box-sizing: border-box;
-    float: left;
-}
-
-ul{
-    list-style-type: none;
-}
-ul.nav{
-    
-    margin: 0;
-    padding: 0; 
-    width: auto;
+.footer{
 }
 
 li.nav{
@@ -91,22 +48,30 @@ li.nav{
     margin: 0em .5em .25em .25em;
 }
 
-li.contact{
+a {
+    color: rgba(61, 74, 76, 1);
+}
+
+a.nav{
+    color: rgb(255,255,255);
+    text-decoration: none;
+    
+}
+
+a.nav:hover{
+    background-color: rgba(95, 209, 227, 1);
+    padding: 1em .25em .75em .25em;
+}
+
+ul{
+    list-style-type: none;
+}
+
+li.iconlist{
     display: inline;
     float:left;
     padding-left: 1em;
     margin: 0em .5em .25em .25em;
-}
-
-.center{
-    margin-left: 30%;
-}
-.right{
-    float: right;
-}
-
-.left{
-    float: left;
 }
 
 .overlay{
@@ -118,79 +83,156 @@ li.contact{
     z-index: 10;
 }
 
-.wrapper{
-    position:relative;
+.home{
+    margin-top: 7em;
+    padding-top:18%;
+    padding-bottom:40%;
+    
+}
+.container{
+    width:auto;
+    height: auto;
+    margin-left: 2em;
+    margin-right: 2em;
+    
+}
+.initial{
+    margin-top: 3em;
+    position: absolute;
     width: 100%;
-    height: 100%;
-    left:0;
+    height: auto;
+    left: 0;
     top: 0;
+    background-image: url(images/climbing.JPG);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.gentlecover{
+    margin-top: -7em;
+    margin-bottom: auto;
+    padding-bottom: 10%;
+    width:100%;
+    height: auto;
+    /*position: fixed;*/
+    position:static;
+    background-color: rgb(255,255,255);
+    opacity: .6;
+
 }
 
-a {
-    color: rgba(17, 119, 136, 1);
+.full{
+    position:absolute; 
+    top:0; 
+    left:0; 
+    width:100%; 
+    height:100%;
 }
 
-a.nav{
-    color: rgb(255,255,255) !important;
-    text-decoration: none;
+.box{
+    width: 40%;
+    height:auto;
+    padding-left: 5%;
+    padding-right: 5%;
+    margin-left: 3% 5% 3% 5%;
+    font-size: 25px;
+    line-height: 1.3;
+}
+
+.lower{
+    padding-top: 2.5em;
+}
+.left{
+    float:left;
+}
+.right{
+    float:right;
+}
+
+.center{
+    margin-left: 30%;
+}
+
+.name{
+    font-size: 50px;
+    font-weight: 600;
+    line-height: .3;
+}
+
+.about{
+    background-color: rgba(17, 119, 136, 1);
+    margin-left:0;
+    margin-right:0;
+    padding-left: 2em;
+    padding-right: 2em;
+    padding-top:2em;
+    padding-bottom: 2em;
+    color: rgb(255,255,255);
+}
+
+.in_about{
+    padding-left: 15%;
+    padding-right: 15%;
+}
+
+.portfolio{
+    height: 100%;
+
+   
+}
+
+.in_portfolio{
+    background-color: rgba(61, 74, 76, 1);
+    margin-left: 15%;
+    margin-right: 15%;
+    padding-left: 15%;
+    padding-right: 15%;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    color: rgb(255,255,255);
+}
+
+.interests{
+    background-color: rgba(242, 137, 121, .6);
+    margin-left:0;
+    margin-right:0;
+    padding-left: 2em;
+    padding-top:2em;
+    padding-bottom: 2em;
     
 }
 
-a.nav:hover{
-    background-color: rgba(95, 209, 227, 1);
-    padding: 1em .25em .75em .25em;
+.in_interest{
+    background-color: rgba(255, 255,255, 1);
+    margin-left: 15%;
+    margin-right: 7.5%;
+    padding-left: 15%;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    color: rgba(61, 74, 76, 1);
 }
 
-a.nav:active{
-    background-color: black: rgb( 0, 0, 0);
-}
-/*
-li a {
-    display:block;
-    color: rgb(255,255,255);
-    target: blank;
-}
-*/
-
-h1, h2, h3, h4, h5, h6 {
-    color: rgba(61, 74, 76, 1.0);
-    font-weight: 600;
-    line-height: 1.3em;
+.contact{
+      background-color: rgba(17, 119, 136, .75);
+    margin-left:0;
+    margin-right:0;
+    padding-left: 2em;
+    padding-right: 2em;
+    padding-top:2em;
+    padding-bottom: 10em; 
+    color: rgb(255, 255, 255);
 }
 
-h2 {
-    margin-top: 1.3em;
+h3.in_contact{
+    font-size: 30px;
 }
-
-
-/* NOT WORKING */
-
-
-b, strong {
-    font-weight: 600;
-}
-
-samp {
-    display: none;
-}
-
-/*img {
-    -webkit-animation: colorize 2s cubic-bezier(0, 0, .78, .36) 1;
-    animation: colorize 2s cubic-bezier(0, 0, .78, .36) 1;
-    background: transparent;
-    border: 10px solid rgba(0, 0, 0, 0.12);
-    border-radius: 4px;
-    display: block;
-    margin: 1.3em auto;
-    max-width: 95%;
+/*.watermark{
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
 }*/
-/* -------- Buttons ---------*/
-.button{
-    float: right;
-    background-color: rgba(242, 137, 121, 1);
-    width: 35px;
-    height: auto;
-}
+
 
 /* -------- Sprites ---------*/
 .icon {
@@ -200,6 +242,7 @@ display:block;
 text-indent:-9999px;
 background-image:url(images/media_icons.png);
 background-repeat:no-repeat;
+    opacity: .7
 }
 
 .email {
@@ -214,5 +257,27 @@ background-position:-115px -612px;
 .github{
    background-position:-168px -455px;  
 }
-*/
 
+.text{
+    /*  TODO  Find text icon */
+}
+
+.facebook{
+    background-position: -115px -664px;
+}
+
+.pinterest{
+    background-position: -531px -559px;
+}
+
+
+#backToTop{
+  position:fixed;
+  top:0;
+  z-index:5;
+  background:#999;
+  display:block;
+  padding:0.5em;
+  text-align:center;
+  width:100%;
+}
