@@ -123,8 +123,7 @@ li.iconlist{
 
 .initial{
     margin-top: 3em;
-    position: fixed;
-    top: 3em;
+    position: absolute;
     width: 100%;
     height: auto;
     left: 0;
