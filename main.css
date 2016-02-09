@@ -29,8 +29,15 @@ body {
 
 @media only screen and (min-width:0px) and (max-width: 565px) {
    h1{ font-size: 2em !important; }
+
 }
 
+@media only screen and (min-width:0px) and (max-width: 834px) {
+      .hide_me{
+        visibility: collapse;
+        display: none;
+    }
+}
 h2{
     font-size: 40px;
 }
@@ -280,8 +287,27 @@ background-repeat:no-repeat;
     opacity: .7
 }
 
+.smGlobalBtn{ /* global button class */
+    display: inline-block;
+    position: relative;
+    cursor: pointer;
+    width: 35px;
+    height: 35px;
+    box-shadow: 0 2px 2px #999;
+    padding: 0px;
+    text-decoration: none;
+    text-align: center;
+    color: #fff;
+    font-size: 25px;
+    font-weight: normal;
+    line-height: 2em;
+    border-radius: 17.5px;
+    -moz-border-radius:17.5px;
+    -webkit-border-radius:17.5px;
+}
+
 .email {
-background-position:-115px -612px;
+background-position:-116px -611px;
 
 }
 
@@ -302,7 +328,7 @@ background-position:-115px -612px;
 }
 
 .pinterest{
-    background-position: -531px -559px;
+    background-position: -532px -559px;
 }
 
 
