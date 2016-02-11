@@ -291,9 +291,9 @@ background-repeat:no-repeat;
     display: inline-block;
     position: relative;
     cursor: pointer;
-    width: 35px;
-    height: 35px;
-    box-shadow: 0 2px 2px #999;
+    width: 30px;
+    height: 30px;
+    box-shadow: 2px 2px 5px #669;
     padding: 0px;
     text-decoration: none;
     text-align: center;
@@ -301,22 +301,45 @@ background-repeat:no-repeat;
     font-size: 25px;
     font-weight: normal;
     line-height: 2em;
-    border-radius: 17.5px;
-    -moz-border-radius:17.5px;
-    -webkit-border-radius:17.5px;
+    border-radius: 15px;
+    -moz-border-radius:15px;
+    -webkit-border-radius:15px;
+}
+
+.rectangleBtn{
+    display: inline-block;
+    position: relative;
+    cursor: pointer;
+    width: auto;
+    height: 30px;
+    box-shadow: 3px 3px 5px #444;
+    padding: 0 3px 0 3px;
+    text-decoration: none;
+    text-align: center;
+    color: rgba(255, 255, 255) !important;
+    background-color: rgba(95, 209, 227, 1);
+    font-size: 15px;
+    font-weight: bold;
+    line-height: 2em;
+    border-radius: 3px;
+}
+
+.right{
+    float: right;
+    margin-right: 2em;
 }
 
 .email {
-background-position:-116px -611px;
+background-position:-118px -613px;
 
 }
 
 .linkedin{
-   background-position:-635px -664px; 
+   background-position:-637px -666px; 
 }
 
 .github{
-   background-position:-168px -455px;  
+   background-position:-170px -458px;  
 }
 
 .text{
@@ -324,11 +347,11 @@ background-position:-116px -611px;
 }
 
 .facebook{
-    background-position: -115px -664px;
+    background-position: -117px -666px;
 }
 
 .pinterest{
-    background-position: -532px -559px;
+    background-position: -534px -561px;
 }
 
 
