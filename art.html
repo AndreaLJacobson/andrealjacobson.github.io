@@ -35,18 +35,78 @@
                 <ul class="nav navbar-nav navbar-right">
                     <li class="mynav"><a href="index.html" class="nav">Home</a></li>  
                     <li class="mynav"><a href="index.html#about" class="nav">About</a></li>
-                    <li class="mynav"><a href="#portfolio" class="nav">Portfolio</a></li>
-                    <li class="mynav"><a href="#interests"  class="nav">Interests</a></li>
+                    <li class="mynav"><a href="index.html#portfolio" class="nav">Portfolio</a></li>
+                    <li class="mynav"><a href="index.html#interests"  class="nav">Interests</a></li>
                     <li class="mynav"><a href="#art"  class="nav">Art</a></li>
-                    <li class="mynav"><a href="#contact" class="nav">Contact</a></li>
+                    <li class="mynav"><a href="index.html#contact" class="nav">Contact</a></li>
                 </ul>
-                
                 </div>
             </nav>
 <!--- ****  Add mobile nav -->
         </header>
         </div>  <! -- /.overlay -->
+        <main>
+            <div id="carousel-art-sample" class="carousel slide" data-ride="carousel">
+  <!-- Indicators -->
+  <ol class="carousel-indicators">
+    <li data-target="#carousel-art-sample" data-slide-to="0" class="active"></li>
+    <li data-target="#carousel-art-sample" data-slide-to="1"></li>
+    <li data-target="#carousel-art-sample" data-slide-to="2"></li>
+    <li data-target="#carousel-art-sample" data-slide-to="3"></li>
+    <li data-target="#carousel-art-sample" data-slide-to="4"></li>
+  </ol>
+ 
+  <!-- Wrapper for slides -->
+  <div class="carousel-inner slides_container">
+    <div class="item active slides_container">
+      <img src="images/my_art/orchids.JPG" alt="orchids" class="slides_container">
+      <div class="carousel-caption">
+          <h3>Caption Text</h3>
+      </div>
+    </div>
+    <div class="item  slides_container">
+      <img src="images/my_art/windmills.JPG" alt="..." class="rotate90 slides_container">
+      <div class="carousel-caption">
+          <h3>Caption Text</h3>
+      </div>
+    </div>
+    <div class="item slides_container">
+      <img src="images/my_art/doorway_in_malta.JPG" alt="..." class="slides_container">
+      <div class="carousel-caption">
+          <h3>Caption Text</h3>
+      </div>
+    </div>
+      <div class="item slides_container">
+      <img src="images/my_art/the_pond.JPG" alt="..." class="slides_container">
+      <div class="carousel-caption">
+          <h3>Caption Text</h3>
+      </div>
+    </div>
+      <div class="item slides_container">
+      <img src="images/my_art/wine_and_roses.JPG" alt="..." class="rotate90 slides_container">
+      <div class="carousel-caption">
+          <h3>Caption Text</h3>
+      </div>
+    </div>
+ <!-- moving down </div>  -->
+ 
+  <!-- Controls -->
+  <a class="left carousel-control" href="#carousel-art-sample" role="button" data-slide="prev">
+    <span class="glyphicon glyphicon-chevron-left"></span>
+  </a>
+  <a class="right carousel-control" href="#carousel-art-sample" role="button" data-slide="next">
+    <span class="glyphicon glyphicon-chevron-right"></span>
+  </a>
+      </div> <!-- moved div from above-->
+</div> <!-- Carousel -->
         
+        </main>
         
         </body>
         </html>
+
+<script>
+    $('.carousel').carousel({
+        interval: 4000
+    })
+</script>

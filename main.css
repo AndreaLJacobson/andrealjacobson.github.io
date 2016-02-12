@@ -141,8 +141,7 @@ li.iconlist{
 }
 .gentlecover{
     margin-top: -7em;
-    margin-bottom: -5em;
-    padding-bottom: 10%;
+    margin-bottom: -em;
     width:100%;
     height: auto;
     /*position: fixed;*/
@@ -164,7 +163,6 @@ li.iconlist{
     padding-left: 10%;
     padding-right: 5%;
     margin: 3% 10% 3%;
-
     line-height: 1.75em;
 }
 
@@ -177,6 +175,7 @@ li.iconlist{
     font-weight: 400; 
     line-height: 1em;
    padding: 5% 5% 5% 5%;
+    height: 100%;
 }
 
 .lower{
@@ -274,6 +273,37 @@ h3.in_contact{
     left: 0;
     top: 0;
 }*/
+
+.slides_container{
+    width: 100%;
+    height: auto;    
+}
+
+.slides_container div{
+    margin-top: 5em;
+    margin-bottom: 5em;
+    height: 100%;
+    text-align: center;
+}
+
+.slides_container img{
+    margin-top: 10em;
+    height: 75%;
+    text-align: center;
+    margin:0 auto;
+    border-style: outset;
+    border-width: 7px 7px 7px 7px;
+    border-color: rgba(61, 74, 76, 1);
+}
+
+.rotate90 {
+ -webkit-transform: rotate(90deg);
+ -moz-transform: rotate(90deg);
+ -o-transform: rotate(90deg);
+ -ms-transform: rotate(90deg);
+ transform: rotate(90deg);
+ }
+
 
 
 /* -------- Sprites ---------*/
