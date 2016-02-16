@@ -21,6 +21,17 @@
     </head>
     <body>
         
+        <!-- Facebook Share Script-->
+            <div id="fb-root"></div>
+    <script>(function(d, s, id) {
+      var js, fjs = d.getElementsByTagName(s)[0];
+      if (d.getElementById(id)) return;
+      js = d.createElement(s); js.id = id;
+      js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.5";
+      fjs.parentNode.insertBefore(js, fjs);
+    }(document, 'script', 'facebook-jssdk'));</script>
+        
+        
         <div class="navbar overlay">
         <header class="header" id="top">
             <nav class="mynav pull-right nav-collapse">
@@ -88,7 +99,7 @@
                     <p><h3>Professional Experience</h3>
                         
                     </p>
-                    <p>Andrea Jacobson is a software engineer new to the Nashville area.  Having lived and worked in the Seattle area for the past six years, the warmth of the Nashville sun called her here.
+                    <p>Andrea Jacobson is a software engineer new to the Nashville area.  Having lived and worked in the Seattle area for the past six years, the warmth of the south brought her here to Nashville.
                     <br></br>
 While in Seattle, Andrea worked as a Project Management Consultant for Sila Solutions Group.  During her time at Sila, she led many Program level projects while consulting on the development of a large international airline customer service web-portal with a local airline Original Equipment Manufacturer.  She also participated in the development of a full LAMP stack database: gathering requirements, overseeing progress, and coding.
                         <br></br>
@@ -137,7 +148,7 @@ Prior to her time at Sila, she taught Mathematics for a low income high school; 
                     </h2>
                     <section class="in_portfolio">
                     <article>
-                        <p><b><a href="https://github.com/AndreaLJacobson/andrealjacobson.github.io" target="_blank" class="portfolio"> Website Code</a></b></p>        <!-- *** ADD LINK HERE *** -->
+                        <p><b><a href="https://github.com/AndreaLJacobson/andrealjacobson.github.io" target="_blank" > Website Code</a></b></p>        <!-- *** ADD LINK HERE *** -->
                         <p>HTML, CSS, Javascript</p>
                     </article>
                     <article>
@@ -145,7 +156,7 @@ Prior to her time at Sila, she taught Mathematics for a low income high school; 
                         <p>Java</p>
                     </article>
                     <article>
-                        <p><b><a href="https://github.com/AndreaLJacobson/Coursera_Work" target = "_blank" class="portfolio">Additional Projects on Github</a></b></p>       <!-- ***ADD LINK HERE *** -->
+                        <p><b><a href="https://github.com/AndreaLJacobson/Coursera_Work" target = "_blank" >Additional Projects on Github</a></b></p>       <!-- ***ADD LINK HERE *** -->
                         <p>Java</p>
                     </article>
                     </section>
@@ -165,18 +176,20 @@ Prior to her time at Sila, she taught Mathematics for a low income high school; 
                         <h3>
                             <span>membership/professional organizations</span>
                         </h3>
-                        <div class="in_interest">
+                        <div class="in_interest shrink_me">
                         <ul>    
-                            <li>2015 - present: 
-                                <a href=http://nashvillewomenprogrammers.com/ target="_blank">
+                            <li><b>2015 - present: 
+                                <a href=http://nashvillewomenprogrammers.com/ target="_blank ">
                                 Nashville Women Programmers
                                 </a> 
+                                </b>
                             </li>
-                            <li>2014 - 2015: 
+                            <li><b>2014 - 2015: 
                                 <a href=https://www.womenwhocode.com/seattle target="_blank" >
                                     Women Who Code - Seattle
                                 </a>
                                 <img src="images/wwc.png" class = "hide_me">
+                                </b>
                             </li>
                         </ul>
                     </div>
@@ -187,7 +200,7 @@ Prior to her time at Sila, she taught Mathematics for a low income high school; 
                         <h3>
                             <span>adventure</span>
                         </h3>
-                        <div class="in_interest">
+                        <div class="in_interest shrink_me">
                         <ul>
                             <li><b>2008 - 
                                 <a href="http://www.ing-night-marathon.lu/en/" target="_blank">Luxemburg ING Marathon
@@ -219,10 +232,12 @@ Prior to her time at Sila, she taught Mathematics for a low income high school; 
         </div> <!-- /.container -->
 <!-- ========== Contact ========= --> 
         <div  id="contact" class="container contact">    
+            <div>
             <section>
-                <h3 class="in_contact center"><span>contact me</span></h3>
-                <div class="center">
-                    <ul>
+                <h3 class="in_contact iconlist center"><span>contact me</span></h3>
+                <div>
+                <!-- <div class="center"> -->
+                    <ul class="center">
                 <!-- email -->
                         <li class="iconlist">
                             <a href="mailto: andrea.l.jacobson@hotmail.com" class="icon  smGlobalBtn email">
@@ -239,28 +254,28 @@ Prior to her time at Sila, she taught Mathematics for a low income high school; 
                             </a>
                         </li>
                     </ul>
-                    <br></br>
                 </div>
             </section>
+                </div>
+            <div>
             <section id="share">
-                <h3 class="in_contact center">share</h3>
-                <div class="center">
+                <h3 class="in_contact iconlist">| &nbsp;&nbsp;share</h3>
+                <div>
                     <ul>
-                <!--  share by email -->
-                        <!-- TODO*******CHANGE EMAIL INFO *******-->
-                                                <li class="iconlist">
-                                                    <a href="mailto: andrea.l.jacobson@hotmail.com" class="icon email smGlobalBtn" ></a>
                 <!-- share by text -->
                 <!-- share with Facebook -->
                          <!--  TODO  add facebook share info-->
-                        <li class="iconlist"><a href="#" class="icon facebook smGlobalBtn" target="_blank"></a></li>
+                        <li class="iconlist"><a href="http://www.facebook.com/sharer/sharer.php?u=http://andrealjacobson.github.io/&title=Check out this website" class="icon facebook smGlobalBtn" target="_blank"></a></li>
+                        
+                    
                 <!-- share with linkedIn -->
-                  <li class="iconlist"><a href="#" class="icon linkedin smGlobalBtn" target="_blank"></a></li>      
-                <!-- share on Pinterest -->
-                        <li class="iconlist"><a href="#" class="icon pinterest smGlobalBtn" target="_blank"></a></li>
+                  <li class="iconlist"><a href="http://www.linkedin.com/shareArticle?mini=true&url=http://andrealjacobson.github.io/&title=Check out this website&source=GitHub" class="icon linkedin smGlobalBtn" target="_blank"></a></li>      
+                <!-- TODO: fix media type and provdie better title--share on Pinterest -->
+                        <li class="iconlist"><a href="http://pinterest.com/pin/create/bookmarklet/?media=[MEDIA]&url=http://andrealjacobson.github.io/&is_video=false&description=Andrea L Jacobson|Software Engineer" class="icon pinterest smGlobalBtn" target="_blank"></a></li>
                     </ul>
                 </div>
             </section>
+                </div>
             </div>  <!-- /.container -->
         </main>
         <div class="container">
