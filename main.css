@@ -311,9 +311,6 @@ ul.nav{
     background-color: rgba(17, 119, 136, 1);
 }
 
-.caption-styling{
-    text-align: right !important;
-}
 
 .carousel-control {
     &.left, &.right {
