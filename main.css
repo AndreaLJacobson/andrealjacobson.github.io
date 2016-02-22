@@ -112,7 +112,7 @@ ul.nav{
     position: relative;
     width:100%;
     height: auto;
-    margin-left: 2.em;
+    margin-left: 2em;
     margin-right: 2em;
     z-index: 7;
     
@@ -248,7 +248,7 @@ ul.nav{
 }
 
 .contact{
-      background-color: rgba(17, 119, 136, .75);
+    background-color: rgba(17, 119, 136, .75);
     margin-left:0;
     margin-right:0;
     padding-left: 2em;
@@ -345,6 +345,13 @@ ul.nav{
     }
 }
 
+@media only screen and (min-width:0px) and (max-width: 834px)
+{
+    .smallScreen_stack{
+        padding-left: 1em;
+        display:list-item;
+    }
+}
 /* -------- Sprites ---------*/
 .icon {
 width:35px;
