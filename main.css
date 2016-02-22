@@ -109,11 +109,12 @@ ul.nav{
     
 }
 .container{
+    margin: auto;
     position: relative;
     width:100%;
     height: auto;
-    margin-left: 2em;
-    margin-right: 2em;
+  /*  margin-left: 2em;
+    margin-right: 2em; */
     z-index: 7;
     
 }
@@ -248,11 +249,11 @@ ul.nav{
 }
 
 .contact{
+    margin:auto !important;
+    position: absolute;
     background-color: rgba(17, 119, 136, .75);
-    margin-left:0;
-    margin-right:0;
-    padding-left: 2em;
-    padding-right: 2em;
+/*    padding-left: 2em;
+    /*padding-right: 2em; */
     padding-top:2em;
     padding-bottom: 10em; 
     color: rgb(255, 255, 255);
@@ -262,9 +263,17 @@ ul.nav{
 .in_contact{
     font-size: 30px;
     display: inline;
-    text-align: center;
-    vertical-align: middle;
+
 }
+
+.smallScreen_stack{
+    
+}
+/*.iconbox{
+    display: inline;
+    width: 50px;
+    height: 1em;
+}*/
 /*.watermark{
     position: fixed;
     width: 100%;
@@ -331,6 +340,11 @@ ul.nav{
 
 }
 
+@media only screen and (min-width:0px) and (max-width: 565px) {
+   .home{ padding-top:8em;}
+
+}
+
 @media only screen and (min-width:0px) and (max-width: 834px) {
       .hide_me{
         visibility: collapse;
@@ -349,7 +363,23 @@ ul.nav{
 {
     .smallScreen_stack{
         padding-left: 1em;
-        display:list-item;
+        display:block !important;
+        overflow: auto;
+        white-space: nowrap;
+    }
+}
+@media only screen and (min-width:0px) and (max-width: 512px)
+{
+    .iconlist{
+        padding-left: 0em;
+        display: inline !important;
+    }
+}
+
+@media only screen and (min-width:845px)
+{
+    .contact{
+        padding-left: 15%;
     }
 }
 /* -------- Sprites ---------*/
