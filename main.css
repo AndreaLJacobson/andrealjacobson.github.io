@@ -121,12 +121,17 @@ ul.nav{
 .teal{
     background-color: rgba(17, 119, 136, .75) !important;
 }
+
+.gray{
+    background-color: rgba(61, 74, 76, 1);
+}
 .footer{
     margin:auto;
     text-align: center;
     width: 100% !important;
     color: rgba(255, 255, 255, 1) !important;
-    padding-bottom: 3em;
+    padding-top: 1em;
+    padding-bottom: 2em;
 }
 .initial{
     margin-top: 3em;
