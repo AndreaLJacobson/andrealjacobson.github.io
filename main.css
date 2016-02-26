@@ -248,6 +248,13 @@ ul.nav{
     color: rgba(61, 74, 76, 1);
 }
 
+.interest_img {
+   
+    border-style: solid;
+    border-width: 2px;
+    border-color: rgb(255, 255, 255);
+}
+
 .contact{
     margin:auto !important;
     position: absolute;
