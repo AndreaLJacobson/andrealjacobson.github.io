@@ -62,7 +62,6 @@ a.interests{
 a.nav{
     color: rgb(255,255,255);
     text-decoration: none;
-    width:180px;
 }
 
 a.nav:hover{
@@ -373,6 +372,7 @@ ul.nav{
     }
 
 }
+
 @media only screen and (min-width:0px) and (max-width: 834px) {
     .interest,
     .in_interest li{
@@ -401,6 +401,13 @@ ul.nav{
 {
     .contact{
         padding-left: 15%;
+    }
+}
+
+@media only screen and (min-width:0px) and (max-width:760px)
+{
+    a.nav{
+        width: 180px;
     }
 }
 /* -------- Sprites ---------*/
